@@ -9,7 +9,7 @@ This is a fork of the [simulator created by udacity](https://github.com/udacity/
 
 3. Load Unity, Pick load exiting project and choice the `self-driving-car-sim` folder.
 
-4. Load up scenes by going to Project tab in the bottom left, and navigating to the folder Assets/1_SelfDrivingCar/Scenes. To load up one of the scenes, for example the Lake Track, double click the file LakeTrackTraining.unity. Once the scene is loaded up you can fly around it in the scene viewing window by holding mouse right click to turn, and mouse scroll to zoom.
+4. Load up scenes by going to Project tab in the bottom left, and navigating to the folder Assets/SelfDrivingCar/Scenes. To load up one of the scenes, for example the Lake Track, double click the file LakeTrackTraining.unity. Once the scene is loaded up you can fly around it in the scene viewing window by holding mouse right click to turn, and mouse scroll to zoom.
 
 5. Play a scene. Jump into game mode anytime by simply clicking the top play button arrow right above the viewing window.
 
