@@ -345,19 +345,6 @@ namespace UnityStandardAssets.Vehicles.Car
             for (int i = 0; i < 4; i++) {
                 WheelHit wheelHit;
                 m_WheelColliders [i].GetGroundHit (out wheelHit);
-
-                // is the tire slipping above the given threshhold
-                if (Mathf.Abs (wheelHit.forwardSlip) >= m_SlipLimit || Mathf.Abs (wheelHit.sidewaysSlip) >= m_SlipLimit) {
-                    m_WheelEffects [i].EmitTyreSmoke ();
-                    continue;
-                }
-
-                // if it wasnt slipping stop all the audio
-                if (m_WheelEffects [i].PlayingAudio) {
-                    m_WheelEffects [i].StopAudio ();
-                }
-                // end the trail generation
-                m_WheelEffects [i].EndSkidTrail ();
             }
         }
 
